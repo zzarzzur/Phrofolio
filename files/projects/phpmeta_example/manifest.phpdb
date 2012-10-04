@@ -1,0 +1,4 @@
+<?php
+$_meta['projtitle'] = "Project META-DATA Example";
+$_meta['enlarge'] = true;
+$_meta['centerdata'] = true;

@@ -1,0 +1,11 @@
+<?php
+//Array Definition
+$_oCtant = array();
+//Title
+	$_oCtant['title'] = "Test";
+//Title On Page
+	$_oCtant['header'] = "Example";
+//Page Title Size
+	$_oCtant['headernum'] = "2";
+//Theme
+	$_oCtant['theme'] = "gay";
