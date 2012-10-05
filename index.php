@@ -13,8 +13,11 @@ include("files/config/main.phpdb");
 		<h<?php echo $_oCtant['headernum'];?>><?php echo $_oCtant['header'];?></h<?php echo $_oCtant['headernum'];?>>
 	</div>
 	<div id="content">
+		<div id="left">
+			<?php include("files/scripts/php/sidelinks/index.php"); ?>
+		</div>
 		<div id="main">
-			<iframe id="mainiframe" frameborder="0" src="files/pages/Home.php">
+			<iframe id="mainiframe" frameborder="0" src="files/pages/Home.php" style="position:absolute; width:100%; height:100%; left:0px; right:0px; border-radius:5px;">
 			Inception in a browser
 			</iframe>
 		</div>

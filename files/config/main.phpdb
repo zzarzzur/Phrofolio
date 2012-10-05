@@ -8,4 +8,4 @@ $_oCtant = array();
 //Page Title Size
 	$_oCtant['headernum'] = "2";
 //Theme
-	$_oCtant['theme'] = "gay";
+	$_oCtant['theme'] = "test1";
