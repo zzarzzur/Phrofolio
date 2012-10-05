@@ -1,0 +1,4 @@
+<?php
+$_meta['projtitle'] = "This Portfolio";
+$_meta['enlarge'] = true;
+$_meta['centerdata'] = true;
