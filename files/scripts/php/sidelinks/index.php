@@ -1,7 +1,7 @@
 <?php
 //$dirh = opendir("../../../pages/");
 if(is_dir("../../../pages/"))$dir = glob("../../../pages/*");
-if(is_dir("./files/pages/"))$dir = glob("./files/pages/*");
+if(is_dir("./files/pages/"))$dir = glob("./files/pages/*.php");
 foreach($dir as $project){
 	//$_meta = array();
 	//include("" . $project . "/manifest.phpdb");
