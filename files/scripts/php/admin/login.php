@@ -9,7 +9,7 @@ include("../scripts/php/database/main.php");
 <?php
 if($_POST['action'] == "Login!") {
 	if($_POST['pass'] != "" && $_POST['user'] != "") {
-		if($_POST['user'] == database_pull("users", "username")){ }
+		if(database_test("int", "username:" . $_POST["user"] . ";password:" . $_POST["pass"] . ";role:admin;", 0) == true){ echo "Worked";}
 	}
 }else{
 ?>
