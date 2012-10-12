@@ -6,7 +6,7 @@ $_oCtant = array();
 //Title On Page
 	$_oCtant['header'] = "CERN";
 //Catchy Phrase
-	$_oCtant['phrase'] = "Blowing Up Particles Faster Than You Can Say 'pfft'";
+	$_oCtant['phrase'] = "Blowing Up Particles Faster Than You Can Say... oop already exploded, never-mind, couldn't even do the catch phrase.";
 //Page Title Size
 	$_oCtant['headernum'] = "2";
 //Theme
