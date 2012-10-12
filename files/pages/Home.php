@@ -12,7 +12,7 @@ damn I hope this works
     <td width="55" rowspan="9" align="left" valign="top">&nbsp;</td>
 
     <td colspan="2" align="left" valign="top"><a href="http://www.humansofnewyork.com/">T U M B L R</a></td>
-    <td width="63" rowspan="9" align="left" valign="top">&nbsp;</td>
+    <!--<td width="63" rowspan="9" align="left" valign="top">&nbsp;</td>-->
   </tr>
   <tr>
     <td colspan="2" align="left" valign="top"><a href="http://anonymous.com/index.htm">C O N T A C T</a></td>
