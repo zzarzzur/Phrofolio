@@ -17,7 +17,10 @@ if($final == true) {
 	<body>
 		Welcome to the admin page for Phrofolio.
 		<br>
-		So um yeah, there really isn't anything YET(yet indeed).
+		there really isn't anything YET,
+		<br>
+		But I'm working on it so be patient damn it!
+
 	</body>
 </html>
 <?php
