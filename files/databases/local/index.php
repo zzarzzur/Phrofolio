@@ -24,4 +24,5 @@ print_r($ar);
 foreach($ar as $col=>$data){
 	echo $col . "<br>";
 }
+database_add("access", time() . "!~!local");
 	

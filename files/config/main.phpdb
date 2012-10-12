@@ -2,9 +2,11 @@
 //Array Definition
 $_oCtant = array();
 //Title
-	$_oCtant['title'] = "Test";
+	$_oCtant['title'] = "CERN";
 //Title On Page
-	$_oCtant['header'] = "Example";
+	$_oCtant['header'] = "CERN";
+//Catchy Phrase
+	$_oCtant['phrase'] = "Blowing Up Particles Faster Than You Can Say 'pfft'";
 //Page Title Size
 	$_oCtant['headernum'] = "2";
 //Theme

@@ -11,6 +11,7 @@ include("files/config/main.phpdb");
 <body>
 	<div id="head" name="head">
 		<h<?php echo $_oCtant['headernum'];?>><?php echo $_oCtant['header'];?></h<?php echo $_oCtant['headernum'];?>>
+		<?php echo $_oCtant['phrase'];?>
 	</div>
 	<div id="content">
 		<div id="left">

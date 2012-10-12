@@ -50,13 +50,16 @@ if(is_dir("../local"))$fbase = "..";
 //print_r($values);
 	$dird = array();
 	$i=0;
-	foreach($values as $dirte){ 
-		$dird[$dirte] = array();
-		$datag = glob($fbase . "/local/" . $base . "/*");
-		foreach($datag as $glo) {
-			if(substr($glo, -2) != "/0") {
-				$file = explode("\n", file_get_contents($glo));
-				$dird[$dirte][count($dird[$dirte])] = $file[$i];
+	$datag = glob($fbase . "/local/" . $base . "/*");
+	foreach($datag as $glo) {
+		if(substr($glo, -2) != "/0") {
+		$dird[$i] = array();
+		$file = explode("\n", file_get_contents($glo));
+		$j=0;
+		foreach($file as $tex) {
+				$dird[$i][$values[$j]] = $tex;
+				$j++;
+				
 			}
 		}
 		$i++;
@@ -93,3 +96,20 @@ if(is_dir("../local"))$fbase = "..";
                         }
 }
 			}
+function database_add($base, $values){
+if(is_dir("../../../databases"))$fbase = "../../../databases";
+if(is_dir("../databases"))$fbase = "../databases";
+if(is_dir("../local"))$fbase = "..";
+$tables = glob($fbase . "/local/" . $base . "/*");
+//echo "<br>" . $tables . "<br>";
+$name = explode("/", $tables[count($tables)-1]);
+//echo "<br>" . $name . "<br>";
+$name = $name[count($name)-1];
+//echo "<br>" . $name . "<br>";
+$value = explode("!~!", $values);
+//echo "<br>" . $value . "<br>";
+$value = implode("\n", $value);
+//echo "<br>" . $value . "<br>";
+file_put_contents($fbase . "/local/" . $base . "/" . (count($tables)), $value);
+//Eecho "<br>" . $fbase . "/local/" . $base . "/" . ($name+1) . "<br>";
+}
